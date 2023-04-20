@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <title>Quiz</title>
+        <link rel="icon" type="image/png" href="./images/favicon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="md-banner">
+            <img class="Banner" src="./images/Banner_trans.png">
+        </div>
+        <div>
+        <ul class="NavBar LinkBar">
+            <li class="active"><a href="index.html">Home Page</a></li>
+            <span class="nav-drop">
+                <li class="dropbtn"><a href="pages/archives.html">Archives</a></li>
+                <div class="dropcontent">
+                    <li><a href="./pages/HTML.html">HTML</a></li>
+                    <li><a href="./pages/CSS.html">CSS</a></li>
+                    <li><a href="./pages/js.html">JavaScript</a></li>
+                </div>
+            </span>
+            <li><a href="pages/bio.html">Bio</a></li>
+        </ul>
+        </div>
+
+        <div class="contain">
+            <p>Here is a Quiz about me!</p>
+
+            <form name="Quiz">
+                <label for="name">Enter Your Name: </label>
+                    <input type="text" name="name" size="30">
+                <p>What percentage of businesses in GM will be hiring developers in the next 3 years?</p>
+                    <input type="radio" name="growth" value="30%">
+                        <label for="30%">30%</label><br>
+                    <input type="radio" name="growth" value="70%">
+                        <label for="30%">70%</label><br>
+                    <input type="radio" name="growth" value="50%">
+                        <label for="30%">50%</label><br>
+                    <br>
+                <label for="talent">What % of businesses feel lack of quality talent was the biggest productivity challenge?</label>
+                    <input type="number" name="talent" min="0" max="100" step="10">
+            </form>
+            <br>
+            <button type="button" onclick="checkAnswers();">Submit</button>
+            <script src="./quiz.js"></script>
+        </div>
+
+            <br>
+        <ul class="Footer LinkBar">
+            <li><a href="mailto:ruthmashcroft@gmail.com">Contact me via Email</a></li>
+            <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Answer to the Ultimate Question of Life, the Universe, and Everything</a></li>
+        </ul>
+    </body>
+</html>

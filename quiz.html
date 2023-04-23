@@ -27,27 +27,40 @@
         </div>
 
         <div class="contain">
-            <p>Here is a Quiz about me!</p>
+            <p>Because you sat though all of that information, time for a fun little quiz! I promise it won't be on anything too stress-inducing, think of it as something silly!</p>
 
             <form name="Quiz">
                 <label for="name">Enter Your Name: </label>
-                    <input type="text" name="name" size="30">
-                <p>What percentage of businesses in GM will be hiring developers in the next 3 years?</p>
-                    <input type="radio" name="growth" value="30%">
-                        <label for="30%">30%</label><br>
-                    <input type="radio" name="growth" value="70%">
-                        <label for="30%">70%</label><br>
-                    <input type="radio" name="growth" value="50%">
-                        <label for="30%">50%</label><br>
-                    <br>
-                <label for="talent">What % of businesses feel lack of quality talent was the biggest productivity challenge?</label>
-                    <input type="number" name="talent" min="0" max="100" step="10">
+                    <input type="text" name="name" size="30" autofocus>
+                <p>Whats my favourite colour?</p>
+                    <input type="radio" name="q1" value="yellow">
+                        <label for="yellow">Yellow</label><br>
+                    <input type="radio" name="q1" value="green">
+                        <label for="yellow">Green</label><br>
+                    <input type="radio" name="q1" value="pink">
+                        <label for="yellow">Pink</label><br>
+                <p>Where did I meet my husband?</p>
+                    <input type="radio" name="q2" value="york">
+                        <label for="chester">York</label><br>
+                    <input type="radio" name="q2" value="university">
+                        <label for="university">Univerity</label><br>
+                    <input type="radio" name="q2" value="preston">
+                        <label for="chester">Preston</label><br>
+                    <input type="radio" name="q2" value="chester">
+                        <label for="chester">Chester</label><br>
+                <p>How old am I?</p>
+                    <input type="number" name="q3" max="100" min="0">
+                <p>And finally, input a cheeky swearword ;) I promise it wont effect your score!</p>
+                    <input type="password" size="30">
             </form>
             <br>
-            <button type="button" onclick="checkAnswers();">Submit</button>
             <script src="./quiz.js"></script>
+            <button type="button" onclick="checkAnswers();">Submit</button>
+            <p>If you got 0 points.... no worries, it's just a bit of fun!</p>
+            <p>If you got 1 point....fantastic! You did so great!</p>
+            <p>If you got 2 points....wow! You're amazing!</p>
+            <p>If you got 3 points....amazing! You smashed it!</p>
         </div>
-
             <br>
         <ul class="Footer LinkBar">
             <li><a href="mailto:ruthmashcroft@gmail.com">Contact me via Email</a></li>
